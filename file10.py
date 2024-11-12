@@ -1,12 +1,13 @@
 #12/11/2024
 #DICIONÁRIOS
 
-Pessoa = {'Nome': 'Tiago',
-           'idade': 28, 
-           'endereço': {
-               'rua': 'Rua Joaquim Teodoro',
-               'número': 50,
-               'bairro': 'nova parnamirim'
+Pessoa = {
+        'Nome': 'Tiago',
+        'idade': 28, 
+        'endereço': {
+            'rua': 'Rua Joaquim Teodoro',
+            'número': 50,
+            'bairro': 'nova parnamirim'
            }
            }
 Pessoa['endereço']['bairro'] = 'Alecrim'  # o primeiro [] indica a "primeira camada", e o segundo [] indica a "segunda camada", que neste caso já é o item

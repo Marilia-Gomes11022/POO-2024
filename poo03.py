@@ -7,8 +7,8 @@ class Animal:
         return 'Nome: %s \nPeso: %f'%(self.__nome, self.__peso)
     def alimentar(self, comida):
         self.peso += comida
-    def __gt__(self, other):
-        return self.peso > other.__peso
+        def __gt__(self, other):
+            return self.peso > other.__peso
     def __add__(self, other):
         return Animal(self.__nome + '' + other.__nome, self.__peso + other.__peso)
 

@@ -1,0 +1,6 @@
+compra = int(input('Digite o valor total da compra?'))
+gorjeta = (compra*10/100)
+vfinal = (compra + gorjeta)
+
+print("Sua compra foi no valor de {}. \nA gorjeta será de {}. \nO total a ser pago então é de {}.".format(compra, gorjeta, vfinal))
+

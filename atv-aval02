@@ -1,0 +1,39 @@
+from random import randint
+print('Bem-vindo ao Universo da Hello Kitty!')
+print('Hoje vamos jogar "My melody pensante"!')
+print('Vamos usar o intervalo do número 1 ao 100. \n')
+print('--='*20)
+
+mymelody = randint(1,100)
+kuromi = 0
+
+while kuromi < 7:
+    jogador = int(input('Digite o seu palpite: '))
+    print('\n PROCESSANDO...')
+    kuromi += 1
+
+
+    if jogador == mymelody:
+        print('Você acertou!')
+    elif jogador < mymelody:
+        print('aumente seu palpite')
+    elif jogador > mymelody:
+        print('seu palpite deve ser menor!')
+    elif kuromi == 7:
+        print('Suas tentativas acabaram!!')
+    else: 
+        print('Errou, tente novamente!')
+
+
+
+
+
+
+
+#print("Adivinhe que número de 1 a 100 que a My Melody está pensando...")
+#from random import randint
+#print("-=-"*20)
+#print("My Melody vai pensar em um número agora... Tente adivinhar!")
+#print("-=-"*20)
+#jogador = int(input("Digite o número que eu estou pensando"))
+#print("PROCESSANDO...")

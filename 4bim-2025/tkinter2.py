@@ -80,7 +80,6 @@ b_18.place(x=177, y=208)
 #criando função 
 def calcular(event):
     resultado = eval('9/9')
-    valor_texto.
 
 #criando label
 app_label = Label(frame_tela, text='12345678', width=16, height=2, padx=7, relief=FLAT, anchor='e', justify=RIGHT, font=('Ivy 18'))
